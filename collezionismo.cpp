@@ -35,8 +35,10 @@ void distribute_remaining_statues(vector<vector<int>>& scaffali, vector<int>& ve
 
 
 void add_best_scaffale(vector<vector<int>>& scaffali, vector<int>& vec, int k){
-    
+    int min = calcD(scaffali[0][0], scaffali[0][1]); // NOTE: non va bene cosi, devi inizializzare con primo valore ipotetico di vec[0]
+    int minIdx = 0;
     for(int i=0; i<k; i++){
+        if()
         
     }
 }
